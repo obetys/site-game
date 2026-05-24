@@ -3,6 +3,11 @@
 }
 
 header {
-    height: 30vh;
-    background-color: white;
+    background:linear-gradient(-45deg,#003333,#004d4d,#99cccc,#ffffcc);
+    background-size: 400% 400%;
+    animation: gradientMove 10s ease infinite;
+    height: 25rem;
+    background-repeat: no-repeat;
+    padding: 3rem;
+    padding-bottom: 3rem;
 }
